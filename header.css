@@ -25,8 +25,8 @@ header{
 .header_text {
     width: 700px;
 }
-.header h2{
-    font-size: 50%;
+.header_section h2{
+    font-size: 60px;
     justify-content: center;
     align-items: center;
 }
