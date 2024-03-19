@@ -29,8 +29,8 @@
 .container .box
 {
 position: relative;
-width:  21.625em;
-height: 25.625em;
+width:  400px;
+height: 500px;
 color:#fff;
 background: #111;
 display: flex;
