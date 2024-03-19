@@ -25,6 +25,11 @@ header{
 .header_text {
     width: 700px;
 }
+.header h2{
+    font-size: 50%;
+    justify-content: center;
+    align-items: center;
+}
 .circle{
     height: 600px;
     width: 600px;
