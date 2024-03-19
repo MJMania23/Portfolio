@@ -29,7 +29,8 @@
 .container .box
 {
 position: relative;
-width:  400px;
+width:  350px;
+height: 400px;
 
 color:#fff;
 background: #111;
