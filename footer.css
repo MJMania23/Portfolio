@@ -13,6 +13,7 @@ footer h2 {
     margin: 60px auto;
     width: 1500px;
     max-width: 90%;
+    /*background: gray;*/
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 300px 300px;
@@ -28,8 +29,8 @@ footer h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
-    gap: 50px;
+    padding: 30px;
+    gap: 30px;
 }
 
 .grid_item img {
@@ -53,6 +54,7 @@ footer h2 {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    gap: 10px;
     }
 
 #item4 {
@@ -63,6 +65,7 @@ footer h2 {
 
 #item5 {
     grid-area: item5;
+gap: 10px;
 }
 
 @media(max-width:1300px){
@@ -90,12 +93,17 @@ footer h2 {
 }
 
 @media(max-width: 650px){
-    footer hr{
+    footer h2{
         font-size: 9vw;
     }
     .grid_item{
-        padding: 15px;
+        padding: 20px;
     }
+ .grid_item3 img {
+     height: 100px;
+     width: 100px;
+ }
+
     .grid_item img{
         height: 100px;
         width: 100px;

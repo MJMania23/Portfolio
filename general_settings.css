@@ -23,15 +23,17 @@ h1{
     font-size: 100px;
     line-height: 115%;
 }
-
+/*h2{ 
+    font-size: 75px;
+}*/
 h3{
-    font-size: 38;
+    font-size: 38px;
 }
 .subheading{
     margin-top: 25px;
     color: var(--secondary-text-color);
 }
-@media(max-width: 500px){
+@media(max-width: 400px){
     h1{
         font-size: 12vw;
         text-align: center;

@@ -21,12 +21,14 @@ header{
     direction: ltr;
     
 }
-
-.header_text {
-    width: 700px;
-}
-.header_section h2{
+.header_section h2 {
     font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_text {
+    width: 800px;
     justify-content: center;
     align-items: center;
 }
@@ -43,7 +45,7 @@ header{
     align-items: center;
 }
 .circle img{
-   height: 100%;
+   width: 100%;
 }
 nav{
     margin-bottom: 120px;
